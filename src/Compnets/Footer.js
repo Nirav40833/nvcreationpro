@@ -11,23 +11,23 @@ const Footer = () => {
                 <Container>
                     <div className='row  mt-5'>
                         <div className='col-lg-3 col-md-6 col-sm-12 col-12 mt-3'>
-                            <div>
-                                <img src={require('./img/asset 53.png')}></img>
+                            <div className='imgsetnv'>
+                                <img src={require('./img/asset 0.png')}></img>
                             </div>
                             <div className='mt-5'>
                                 <p className='m-0'>Call</p>
-                                <p className='fw-bold text-primary'>+91demo</p>
+                                <p className='fw-bold text-primary'>+91 9714198743</p>
                             </div>
                             <div>
                                 Email
-                                <p className='fw-bold text-primary'>info@___________</p>
+                                <p className='fw-bold text-primary'>nvcreation472@gmail.com</p>
                             </div>
-                            <div className='socil_icons'>
+                            {/* <div className='socil_icons'>
                                 <i><FaFacebookF /></i>
                                 <a> <i className='insta'><FaInstagram /></i></a>
                                 <a><i className='text-info'> <FaTwitter /></i></a>
                                 <a><i> <FaLinkedinIn /></i></a>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className='col-lg-3 col-md-6 col-sm-12 col-12 mt-3 fw-semibold '>
@@ -45,11 +45,11 @@ const Footer = () => {
                             <h5 className='fw-bolder'>Recent Post</h5>
                             <div className='text_color p-1 mt-4'>
                                 <div className='bg-white p-2'>
-                                    <p className='fw-bold'> <i><FaRegCalendar /> </i>15/11/2001</p>
+                                    <p className='fw-bold'> <i><FaRegCalendar /> </i>15/11/2025</p>
                                     <p className='icons_right fw-bolder'><i><FaLongArrowAltRight /></i>Types of Programming languages</p>
                                 </div>
                                 <div className='bg-white p-2 mt-4'>
-                                    <p className='fw-bold'> <i><FaRegCalendar /> </i>15/11/2001</p>
+                                    <p className='fw-bold'> <i><FaRegCalendar /> </i>15/11/2025</p>
                                     <p className='icons_right fw-bolder'><i><FaLongArrowAltRight /></i>Types of Programming languages</p>
                                 </div>
                             </div>

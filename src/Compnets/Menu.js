@@ -26,7 +26,7 @@ const Menu = () => {
                                     <Nav className="justify-content-end flex-grow-1 pe-3 menu_text ">
                                         <Nav.Link href="#"><Link to="/" className='text_hover'>Home</Link></Nav.Link>
                                         <Nav.Link href="#"> <Link to="/Courses" className='text_hover'>Tour</Link></Nav.Link>
-                                        <Nav.Link href="#"><Link to="/Blogs" className='text_hover'>Blogs</Link></Nav.Link>             
+                                        {/* <Nav.Link href="#"><Link to="/Blogs" className='text_hover'>Blogs</Link></Nav.Link>              */}
                                         <Nav.Link href="#"><Link to="/Events" className='text_hover'>Events</Link></Nav.Link>
                                         <Nav.Link href="#"><Link to="/About" className='text_hover'>About</Link></Nav.Link>
                                         <Nav.Link href="#"><Link to="/Contact" className='text_hover'>Contact Us</Link></Nav.Link>
