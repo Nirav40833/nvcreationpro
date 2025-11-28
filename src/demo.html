@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Import-Export Company - Professional Layout</title>
+
+    <style>
+        /* ======================== */
+        /* 1. GLOBAL AND RESET STYLES */
+        /* ======================== */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Main container to center content */
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Section titles */
+        .section-heading {
+            text-align: center;
+            margin: 50px 0 30px;
+            font-size: 2.2em;
+            color: #004d99;
+            /* Primary Blue */
+        }
+
+        .section-heading::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: #ffcc00;
+            /* Accent Yellow */
+            margin: 10px auto 0;
+        }
+
+        /* ======================== */
+        /* 2. HEADER AND MENU STYLES */
+        /* ======================== */
+        header {
+            background-color: white;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            /* Logo left, Menu right */
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #004d99;
+        }
+
+        /* Menu (Navigation) */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            padding: 20px 0;
+            display: block;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #ffcc00;
+            border-bottom: 3px solid #004d99;
+        }
+
+        /* ======================== */
+        /* 3. HERO SECTION / SLIDER (Below Menu) */
+        /* ======================== */
+        .hero-slider {
+            background-color: #ddd;
+            /* Placeholder Image - Replace with your actual slider background */
+            background-image: url('https://via.placeholder.com/1500x500?text=Global+Trade+Slider+Banner');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            /* Slider height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            /* Add shadow to text for better readability over image */
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-content h2 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .hero-content p {
+            font-size: 1.5em;
+        }
+
+        .hero-button {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: #333;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .hero-button:hover {
+            background-color: #e6b800;
+        }
+
+
+        /* ======================== */
+        /* 4. PRODUCT CONTENT (Middle Sections) */
+        /* ======================== */
+
+        /* 3-Column Grid Layout */
+        .product-grid {
+            display: flex;
+            gap: 30px;
+            /* Space between columns */
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .product-item {
+            flex: 1 1 calc(33.333% - 20px);
+            /* Ensures 3 items per row */
+            background-color: white;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-item h4 {
+            color: #004d99;
+            font-size: 1.4em;
+        }
+
+
+        /* ======================== */
+        /* 5. FOOTER (At the very bottom) */
+        /* ======================== */
+        footer {
+            background-color: #222;
+            color: #bbb;
+            padding: 40px 0 20px;
+            margin-top: 60px;
+        }
+
+        .footer-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+        }
+
+        .footer-col {
+            width: 25%;
+            /* 4 columns */
+            padding: 10px;
+        }
+
+        .footer-col h5 {
+            color: white;
+            font-size: 1.2em;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-col ul li a {
+            color: #bbb;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            margin-top: 20px;
+            color: #888;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 992px) {
+            .header-content {
+                flex-direction: column;
+            }
+
+            nav ul {
+                margin-top: 10px;
+            }
+
+            nav ul li {
+                margin: 0 10px;
+            }
+
+            .product-item {
+                flex: 1 1 calc(50% - 20px);
+                /* 2 columns on tablet */
+            }
+
+            .footer-col {
+                width: 50%;
+                /* 2 columns on tablet */
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            .product-item {
+                flex: 1 1 100%;
+                /* 1 column on mobile */
+            }
+
+            .footer-col {
+                width: 100%;
+                /* 1 column on mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">aromantaglobal</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-slider">
+        <div class="hero-content">
+            <h2>Your Reliable Partner in Global Trade</h2>
+            <p>Ensuring Quality and Timely Delivery Across Borders.</p>
+            <a href="#contact" class="hero-button">Request A Quote</a>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <section id="products">
+                <h2 class="section-heading">Our Core Products</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <h4>Agri-Commodities</h4>
+                        <p>Export of premium quality spices, grains, and fresh produce to international markets.</p>
+                    </div>
+                    <div class="product-item">
+                        <h4>Industrial Machinery</h4>
+                        <p>Import and distribution of cutting-edge manufacturing equipment and industrial tools.</p>
+                    </div>
+                    <div class="product-item">
+                        <h4>Textiles & Garments</h4>
+                        <p>Sourcing and export of raw cotton, fabrics, and finished apparel.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <h2 class="section-heading">Our Services</h2>
+                <p style="text-align: center;">We offer end-to-end solutions including sourcing, logistics, quality
+                    control, and customs clearance.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-col">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Help & Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Contact Info</h5>
+                    <p>Office: Mitul Kumar { Sir CEO}</p>
+                    <p>Email: aromantaglobal@gmail.com</p>
+                    <p>Phone: +91-525252552</p>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Follow Us</h5>
+                    <p>Connect with us on our social media platforms for the latest updates.</p>
+                </div>
+            </div>
+
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2025</span> QuickTech Solution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script to automatically update the copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>

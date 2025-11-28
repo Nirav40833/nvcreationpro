@@ -1,0 +1,664 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    
+}
+.font-link {
+    font-family: 'Hanalei Fill', cursive;
+  }
+  
+.p-300{
+    padding-top: 190px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+/* Nav Bav Css Start */
+a{
+    text-decoration: none;
+}
+.menu_text a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text_hover:hover{
+    color: #0071dc;
+    /* border-bottom: 2px solid red; */
+}
+
+
+.back_img_fixed{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f7fd;
+}
+
+
+.imgsetnv img{
+    width: 60px;
+}
+
+.cricals_img_1{
+        position: absolute;
+        top: 110px;
+        left: 60px;
+}
+
+.cricals_img_2 img{
+    width: 170px;
+}   
+
+.cricals_img_2{
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    right: 60px;
+}
+.cricals_img_1:hover{
+    margin: 30px;
+    transition: 0.7s;
+    /* transform: rotateX(20deg); */
+}
+
+/* Nav Bav Css End */
+
+/* Home Css Start */
+
+.titale_1 h2{
+        font-size: 50px;
+}
+
+.titale_1{
+    font-family: sans-serif;
+    text-align: center;
+    /* font-weight: bold; */
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titale_1 h2{
+    font-weight: bold;
+}
+.titale_new{
+    /* background-color: ; */
+    color: blue;
+}
+
+.new span{
+    color: #0071dc;
+}
+
+
+.sreach_bar{
+    margin-top: 80px;
+}
+
+.sreach_bar input{
+    height: 60px;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 6px silver;
+}
+ 
+.sreach_bar:hover input{
+    color: #0071dc;
+
+}
+
+ 
+.serch_imgbar img{
+    height: 270px;
+    border-radius: 35px 10px  35px 10px;
+}
+
+.pp-300{
+    margin-top: 80px;
+}
+
+.icons_tech{
+    font-size: 40px;
+    color: #0071dc;
+}
+
+.text_conts{
+    padding: 30px;
+}
+
+.font_skills_lemp h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.font_skills_lemp i{
+    color: #0071dc;
+    
+}
+
+.skills_with_bg{
+    padding: 60px;
+    background-color: #eff5f7;
+}
+
+.prog{
+    /* height: 70px; */
+    /* width: 200px; */
+    border-radius: 5px;
+    border: 1px solid lightsteelblue;
+}
+.prog:hover {
+    transition: .5s;
+    color: #0071dc;
+    /* background-color: white !important; */
+    box-shadow: 0 0 10px lightsteelblue;
+}
+.right_arew{
+    font-size: 14px;
+    color: #0071dc !important;
+    visibility: hidden; 
+}
+.prog:hover .right_arew{
+    padding: 10px;
+    transition: .5s;
+    visibility: visible;
+}
+
+.coure_font h2{
+    margin-top: 50px;
+}
+
+.bg_course_cate{
+    padding: 0px 20px 40px 30px;
+    background-color: #f8f8f8;
+}
+.course_categories:hover {
+    background-color: white;
+}
+
+.category-icon svg{
+    margin: 25px;
+    height: 40px;
+    width: 40px;
+
+}
+.video_gif_img img{
+    height: auto;
+    max-width: 100%;
+}
+
+.span_bg_12 span{
+    background: rgba( 23, 184, 193, 15);
+    color: #17b8c1;
+}
+
+.gif_hover:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    
+    /* transition-delay: .3s; */
+}
+
+.bg_main span{
+    padding: 3px;
+    background: rgba( 23, 184, 193, .15);
+    color: #17b8c1;
+}
+
+.bg_main span{
+    padding: 3px;
+    background: rgba( 23, 184, 193, .15);
+    color: #17b8c1;
+}
+.all_hover:hover{
+    transition: .3s;
+    color: #0071dc;
+}
+
+.pro_h5 h5{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+
+
+.expo{
+    height: 100px;
+    width: 500px;
+    background-color: #f4f9ff;
+}
+
+.font_editing h5{
+    font-size: 15px;
+    /* line-height: 1.67em; */
+    color: #0071dc;   
+}
+
+
+.font_editing h3{
+    font-size: 18px;
+    line-height: 1.67em;   
+}
+
+
+.bg_card_main{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+
+
+
+
+.bg_main_skills{
+    background-color: #eff5f7;
+}
+.uni_logo{
+    padding: 28px 30px 25px;
+    text-align: center;
+}
+
+.uni_back:hover{
+    background-color: white;
+    box-shadow: 0 0 5px silver;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.uni_font h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.uni_logo h5{
+    margin-top: 10px    ;
+    font-size: 15px;
+}
+
+.card{
+    border: none;
+}
+
+/* .bg_color_1{
+     background-color: aliceblue;
+} */
+
+#silders_1 .carousel-indicators button{
+    background-color: black;
+    
+}
+
+#silders_1 .carousel-indicators{
+    position: absolute;
+    bottom: -45px;
+}
+
+
+.socil_icons i{
+    color: #6283A9;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.list-group-item{
+    border: none !important;
+}
+
+.insta{
+    color: #6283A9;
+}
+
+/* .cric_boders{
+    border-radius: 120px;
+    border: 2px solid silver;
+} */
+
+
+.links_hovers p:hover {
+    color: #0071dc;
+    transition: .3s;
+}
+    
+.links_hovers p i{
+    color: #0071dc;
+         font-size: 20px;
+        margin-right: 10px;
+}
+
+.icons_right:hover{
+    color: #0071dc;
+   
+}
+.icons_right:hover i{
+    transform: scale(1.3);
+    transition: .3;
+}
+
+
+/* Home Css End */
+
+
+
+/* Footer Css Start */
+
+.footer_back{
+    /* color: gray; */
+    background-color: #f5f7fd;
+}
+
+.text_color{
+    color: gray;
+}
+
+.silders_2{
+    border-radius:  20px silver;
+}
+.card_editing{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(51 51 51 / 15%) ;
+    background-color: white;
+}
+
+
+#footer_2 .carousel-indicators{
+        visibility: hidden !important;
+}
+#footer_2 .carousel-control-prev-icon{ 
+    background-image: url('./img/icons8.png');   
+    width: 15px;
+    height: 15px;
+
+}
+
+#footer_2 .carousel-control-next-icon{
+    background-image: url('./img/iconswhite.png');
+    width: 15px;
+    height: 15px;
+}
+
+#footer_2 .carousel-control-prev{
+    position: absolute;
+    left: -20px;
+    top: 40%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 120px;
+    /* padding: 20px; */
+    opacity: 1;
+    box-shadow:  0 0 10px silver;
+}
+
+#footer_2 .carousel-control-next{
+    position: absolute;
+    right: -20px;
+    top: 40%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 120px;
+    /* padding: 20px; */
+    opacity: 1;
+    box-shadow:  0 0 10px silver;
+}
+#footer_2 .carousel-control-prev:hover .carousel-control-prev-icon{
+    /* background-color: #0071dc; */
+    background-image: url('./img/left01.png');
+    width: 15px;
+    height: 15px;
+    z-index: 4;
+    
+}
+#footer_2 .carousel-control-next:hover {
+    background-color: #0071dc;
+}
+
+#footer_2 .carousel-control-next:hover .carousel-control-next-icon{
+    /* background-color: #0071dc; */
+    background-image: url('./img/iconswhitehovwr.png');
+    width: 15px;
+    height: 15px;
+    z-index: 4;
+    
+}
+
+#footer_2  .carousel-control-prev:hover{
+    background-color: #0071dc;
+}
+/* Footer Css End */
+
+
+/* About Css Start */
+
+.about_p{
+    background-color: #f8f8f8;
+    text-align: center;
+    height: 130px;
+}
+
+.main_better{
+    margin-top: 90px;
+}
+
+.main_special{
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.icon_cock{
+    color: #0071dc;
+    font-size: 80px;
+}
+
+.cock_hover:hover {
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+    background-color: #ffff;
+    transition: .3s;
+}
+
+
+.main_special{
+    margin-top: 90px;
+}
+
+.spcial_img{
+    width: 390px;
+    height: 280px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+.hover_img_spcial:hover{
+    transform: scale(1.4);
+    transition-duration: 3s;
+
+}
+
+.live_pro{
+    background-color: #f4f9ff;
+}
+
+.icons_pre_1{
+    font-size: 44px;
+    color: palevioletred;
+}
+
+.bg_workshop{
+    margin-top: 70px;
+}
+
+.main_better_bg1{
+    padding: 50px;
+    background-color: #eff5f7;
+}
+
+.mens_photo img{
+    width: 300px;
+}
+
+.meet_our h5{
+        
+    padding: 20px;
+    font-size: 30px;
+}
+/* Courses Start CSS */
+
+
+/* Courses ENd CSS */
+
+.cour_back{
+    height: 110px;
+    background-color: #f8f8f8;
+}
+
+/* About Css End */
+
+/* Events Start */
+
+.events_bg{
+   
+    height: 170px;
+    background-color: #f8f8f8;
+}
+
+.events_bg_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrimb{
+    margin-left: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.input_from{
+    margin: 10px;
+    /* background-color: white; */
+}
+
+.input_from input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 6px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 3px;
+}
+
+.input_cont_bg{
+    padding: 12px;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+    background-color: white;
+}
+
+.btn-primary{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+    border: 2px black;
+}
+
+
+.last_event{
+    height: 110px;
+    background-color: white;
+    box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+}
+
+/* Events End */
+
+
+@media screen and (min-width: 100px) and (max-width: 800px){
+
+    .titale_1{
+        padding: 0;
+        margin-top: 80px;
+        max-width: 400px;
+    }
+    .titale_1 h2{
+        font-size: 40px;
+    }
+    
+    .card_silders{
+        display: inline-block;
+    }
+    .offcanvas-title img{
+        width: 100px;
+    }
+    }
+    
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+    .serch_imgbar{
+        display: none;
+    }
+
+    .skills_d-flex{
+        display: inline-block !important;
+        margin: 0;
+    }
+    .font_skills_lemp{
+        margin-top: 30px;
+    }
+    .card_silders{
+        display: inline-block !important;
+    }
+    }
+
+    @media screen and (min-width: 100px) and (max-width: 600px){
+
+        .sreach_bar  input{
+            height: 60px;
+            width: 300px;
+        }
+
+        .text_conts{
+            padding: 0;
+        }
+
+        .expo{
+            padding-top: 10px;
+            text-align: center;
+            display: inline-block !important;
+            height: 130px;
+            width: 390px;
+        }
+         
+        .spcial_img{
+            height: 240px;
+            width: 240px;
+            /* border-radius: 10px; */
+        }
+
+        .mar_media {
+            margin: 0 !important;
+            padding: 0;
+        }
+
+        }
+
