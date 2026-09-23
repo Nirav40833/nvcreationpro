@@ -20,7 +20,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 Email
-                                <p className='fw-bold text-primary'>nvcreation.site@gmail.com</p>
+                                <p className='fw-bold text-primary'>anilgupta2847@gmail.com</p>
                             </div>
                             {/* <div className='socil_icons'>
                                 <i><FaFacebookF /></i>
